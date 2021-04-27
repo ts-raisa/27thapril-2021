@@ -1,0 +1,108 @@
+.container {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+     height: 100vh;
+     width: 100%;
+}
+.container .logo  {
+    margin-left: 120px;
+   
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'PT Sans', sans-serif;
+}
+.container .logo img {
+    height: auto;
+    width: 70px;
+
+}
+.dingo  {
+ margin-left: 200px;
+ width:50% ; 
+ margin-top: 50px;
+}
+
+.dingo h1 {
+    color: antiquewhite;
+    font-size: 80px;
+
+}
+.dingo h2 {
+    color: rgb(239, 239, 239);
+    opacity: 60%;
+    font-size: 80px;
+}
+.dingo p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+    opacity: 60%;
+}
+.dingo h4 {
+    color: white;
+    margin-top: 20px;
+}
+.dingo h4::after {
+    content: '';
+    background: white;
+    height:1px ;
+    width:60px;
+    position:absolute ;
+    top:500px;
+    left:350px;
+    transition: 0.5s all;
+    
+}
+.dingo h4:hover::after {
+    width:100px ;
+    transform: rotate(-90deg);
+
+}
+.dingo h5 {
+    color:rgb(236, 231, 231) ;
+    transform: rotate(-90deg);
+    position: absolute;
+    left:40px;
+    top:400px;
+}
+.dingo h5::after {
+    content: '';
+    background: white;
+    height:1px ;
+    width:60px;
+    position:absolute ;
+    transition: 0.5s all;
+    left:90px;
+    top:7px;
+}
+
+.candy img {
+    position: absolute;
+    width:40%;
+    right:0px;
+    bottom:0px;
+    transition: 0.5s all;
+
+}
+.candy img:hover {
+
+    width:50% ;
+    
+
+
+
+
+}
+.cherry img {
+    height: 30px;
+    width:30px;
+    opacity :0.6;
+    position: absolute;
+    left: 70px;
+    bottom:20px;
+}
